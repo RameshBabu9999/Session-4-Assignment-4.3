@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Div Box</title>
+<style>
+div {
+    background-color: lightgrey;
+    width: auto;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    background-position:relative;
+    display: inline-block;
+   /*Transition & Transform effects on hovering*/
+}
+img:hover{
+		border: 5px solid black;
+		background-position: absolute;
+		height:400px;
+		width:500px;
+		transform: rotateY(180deg);
+		transition: width 2s linear 1s;
+	}
+}
+</style>
+</head>
+<body>
+
+<h2>Box Model</h2>
+
+<p>The CSS box model is essentially a box that wraps around every HTML element.</p>
+
+<div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Conejo_astronomo.png" height="200" width="300";>
+</div>
+</body>
+</html>
